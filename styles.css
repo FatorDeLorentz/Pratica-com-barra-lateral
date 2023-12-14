@@ -1,0 +1,35 @@
+body{
+    background-color:  #eef9bf;
+}
+
+.barra-lateral-esquerda{
+    width: 300px;
+    height: 100vh;
+    background-color: #ffcccc;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.barra-lateral-direita{
+    width: 300px;
+    height: 100vh;
+    background-color: #b3d9ff;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.corpo-do-site{
+    width: 800px;
+    height: auto;
+    background-color: #eef9bf;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.corpo-do-site p{
+    font-size: 30px;
+    line-height: 40px;
+}
